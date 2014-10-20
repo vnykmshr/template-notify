@@ -1,9 +1,3 @@
-template-notify
-===============
-
-Template based Email/SMS Notifications
-
-```
 'use strict';
 
 var path = require('path');
@@ -38,4 +32,3 @@ nm.email.send(recipients, options, logcb);
 function logcb(err, result) {
     util.log(err || JSON.stringify(result));
 }
-```
