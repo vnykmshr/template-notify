@@ -7,6 +7,7 @@ module.exports = function (emailConfig, templateConfig) {
     require('./lib/mailer').init(emailConfig);
 
     // initialize templates
+    templateConfig = templateConfig || {};
     templateConfig.dir = templateConfig.dir || path.join(process.cwd(), 'resources/templates');
     templateConfig.delimiter = templateConfig.delimiter || '\n\n';
     require('./lib/templates').init(templateConfig);
