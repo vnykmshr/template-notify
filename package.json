@@ -1,6 +1,6 @@
 {
   "name": "template-notify",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Template based Email/SMS Notifications",
   "main": "index.js",
   "scripts": {
